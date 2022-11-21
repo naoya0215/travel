@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+/* reset */
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 100%;
+  text-align: left;
+  list-style-type: none;
+  border-collapse: collapse;
+}
+
+textarea {
+  font-size: 100%;
+  vertical-align: middle;
+}
+
+img {
+  border-style: none;
+  display: block;
+}
+
+hr {
+  display: none;
+}
+
+em {
+  font-style: normal
+}
+
+input {
+  line-height: auto;
+  vertical-align: middle;
+}
+
+strong.more {
+  color: #c30
+}
+
+a {
+  text-decoration: none;
+}
+
+
+body {
+  font-family: 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, 'MS Ｐゴシック', sans-serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* login */
+
+.container {
+    background:linear-gradient(#e0ffff, #00ffff);
+    height: 800px;
+    padding-top: 150px;
+}
+
+.login_box {
+    width: 50%;
+    margin: auto;
+    background-color: #d3d3d3;
+    border: 1px solid #606060;
+    border-radius: 5%;
+}
+
+.login_box h2 {
+    text-align: center;
+    margin: 20px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.box_text {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.form_text {
+    width: 60%;
+    height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.box_sub {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.btn_text {
+    width: 25%;
+    height: 40px;
+    margin: 0 20px;
+}
+
+.btn_register {
+    color: #7fffd4;
+}
+
+/* forgot-password */
+
+.reset_text {
+  text-align: center;
+  font-weight: bold;
+  margin: 60px 0;
+}
+
+.email_reset {
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.block {
+  font-size: 30px;
+  text-align: center;
+  width: 75%;
+  margin-left: 90px;
+}
+
+.reset_button {
+  text-align: center;
+  margin: 50px 0;
+}
